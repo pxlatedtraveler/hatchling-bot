@@ -1,0 +1,110 @@
+body
+{
+/*     background-image: url("../assets/background.png");
+    background-repeat: repeat-x; */
+    background-color: #000000;
+    font-family: Verdana, Helvetica, sans-serif;
+    color: #FFFFFF;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+div
+{
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+
+    -o-user-select: none;
+    user-select: none;
+}
+
+#wrap
+{
+    width: 1024px;
+    height: 1080px;
+    margin: 0 auto;
+}
+
+#intro
+{
+    font-size: 50px;
+    text-align: center;
+    font-family: Montserrat;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+#app
+{
+    width: 910px;
+    height: 411px;
+    margin: 0 auto;
+}
+
+#footer
+{
+    width: 910px;
+    margin: 0 auto;
+    font-size: 30px;
+    text-align: center;
+}
+
+#social
+{
+    color: #8430FF;
+    width: 500px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#footer:hover
+{
+    color: #C0D3A3;
+}
+
+#links
+{
+    text-align: center;
+    margin: 0 auto;
+}
+
+svg
+{
+    background:none;
+    background-color: none;
+    display: inline-block;
+    height: 100px;
+    margin: 0 10px;
+    fill: #8430FF;
+    -webkit-transition: height 1s; /* Safari prior 6.1 */
+    transition: height 1s;
+}
+
+svg:hover
+{
+    height: 120px;
+    -webkit-animation-name: svgGlow; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+    animation-name: svgGlow;
+    animation-duration: 2s;
+}
+
+  /* Safari 4.0 - 8.0 */
+@-webkit-keyframes svgGlow
+{
+    from {fill: #8430FF;}
+    to {fill: #C0D3A3;}
+}
+  
+/* Standard syntax */
+@keyframes svgGlow
+{
+    from {fill: #8430FF;}
+    to {fill: #C0D3A3;}
+}

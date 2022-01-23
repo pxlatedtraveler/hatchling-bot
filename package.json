@@ -1,0 +1,29 @@
+{
+  "name": "hatchling-bot",
+  "version": "1.0.0",
+  "description": "An Eliksni Discord Companion.",
+  "main": "index.js",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "destiny",
+    "bungie",
+    "eliksni",
+    "fallen",
+    "smallen",
+    "discord",
+    "emotes",
+    "emoji",
+    "bot",
+    "fanart"
+  ],
+  "author": "pxlatedtraveler",
+  "license": "ISC"
+}
